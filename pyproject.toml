@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    'setuptools>=61',
+    'wheel',
+    'pybind11>=2.4, <=2.13.6',
+]
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "scryfall_python"
+version = "0.1"
+description = "Python script for downloading images from Scryfall"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests"]

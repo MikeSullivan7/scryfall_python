@@ -1,5 +1,4 @@
 # This is a sample Python script.
-import csv
 import json
 import os.path
 import time
